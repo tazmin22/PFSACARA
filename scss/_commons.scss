@@ -1,0 +1,60 @@
+
+*{
+    box-sizing: border-box;
+    font-family: $mainFooter;
+}
+
+.card {
+	padding: 30px;
+}
+.intro {
+	background-color: $navbarColor
+	h1 {
+		align-items: center;
+
+	}
+}
+
+
+header section {
+    padding: 20px 30px;
+    background-color:$white;
+    img{
+        width: 100%;
+    }
+}
+
+footer {
+	padding: 10px 30px;
+	background-color:$navbarColor;
+	flex-direction: column-reverse;
+	font-family: $mainFooter;
+	svg {
+		width: 70px;
+		height: 70px;
+		fill: rgb(162, 156, 110);
+		padding: 20px;
+		align-items: center;
+	}
+	img {
+		width: 40px;
+		height: 40px;
+	}
+}
+a ::first-line {
+	color: none;
+}
+.iconos img {
+	width: 40px;
+	height: 40px;
+	margin: 40px;
+	margin-top: 70px;
+}
+.iconos p {
+	margin-top: none;
+}
+.btn {
+	color: $keyColor;
+	background-color: $secondaryColor;
+}
+

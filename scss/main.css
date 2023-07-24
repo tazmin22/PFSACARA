@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+.card {
+  padding: 30px;
+}
+
+.intro {
+  background-color: rgb(234, 232, 229) h1;
+  align-items: center;
+}
+
+header section {
+  padding: 20px 30px;
+  background-color: white;
+}
+header section img {
+  width: 100%;
+}
+
+footer {
+  padding: 10px 30px;
+  background-color: rgb(234, 232, 229);
+  flex-direction: column-reverse;
+  font-family: "Trocchi", serif;
+}
+footer svg {
+  width: 70px;
+  height: 70px;
+  fill: rgb(162, 156, 110);
+  padding: 20px;
+  align-items: center;
+}
+footer img {
+  width: 40px;
+  height: 40px;
+}
+
+a ::first-line {
+  color: none;
+}
+
+.iconos img {
+  width: 40px;
+  height: 40px;
+  margin: 40px;
+  margin-top: 70px;
+}
+
+.iconos p {
+  margin-top: none;
+}
+
+.btn {
+  color: black;
+  background-color: rgb(203, 147, 168);
+}
+
+.navbar img {
+  width: 170px;
+  height: 130px;
+}
+
+.navbar {
+  background-color: rgb(234, 232, 229);
+}
+.navbar li a {
+  font-size: 2em;
+  margin: 20px;
+  line-height: 2em;
+  flex-direction: row-reverse;
+  align-items: flex-end;
+}
+.navbarlink:hover {
+  color: rgb(203, 147, 168);
+}
+.navbar img {
+  width: 170px;
+  height: 130px;
+}/*# sourceMappingURL=main.css.map */
