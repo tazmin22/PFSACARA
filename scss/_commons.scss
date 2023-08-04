@@ -7,13 +7,29 @@
 .card {
 	padding: 30px;
 }
-.intro {
-	background-color: $navbarColor
-	h1 {
-		align-items: center;
 
+	.intro-img {
+		padding: 20px;
+		max-width: 100%;
+		height: auto;
+		display: block;
+		margin: 0 auto;
 	}
-}
+
+	.intro {
+		background-color: rgb(234, 232, 229);
+		color: black;
+		max-width: 100%;
+		height: auto;
+		h1 {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			height: 100%;
+			margin: 0;
+		}
+	}
+
 
 
 header section {
@@ -54,7 +70,18 @@ a ::first-line {
 	margin-top: none;
 }
 .btn {
-	color: $keyColor;
-	background-color: $secondaryColor;
+	color: white;
+	background-color: rgb(203, 147, 168);
+	border: none;
+	border-radius: 5px;
+	padding: 10px 20px;
+	cursor: pointer;
+	transition: background-color 0.3s ease-in-out;
+	&:hover {
+		background-color: rgb(173, 117, 138);
+	}
 }
-
+#prueba {
+	animation-duration: 1s;
+	animation-name: slidein;
+}
